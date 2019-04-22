@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28803.156
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DynamicObjectCreator", "DynamicObjectCreator\DynamicObjectCreator.csproj", "{3D180CDD-038E-447F-8B11-2624A37FE77B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3D180CDD-038E-447F-8B11-2624A37FE77B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D180CDD-038E-447F-8B11-2624A37FE77B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D180CDD-038E-447F-8B11-2624A37FE77B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D180CDD-038E-447F-8B11-2624A37FE77B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {931CA700-1313-427B-BF68-58C4225014A5}
+	EndGlobalSection
+EndGlobal

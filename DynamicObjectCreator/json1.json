@@ -1,0 +1,324 @@
+{
+  "OrderId": null,
+  "FreightBillNumber": 0,
+  "BOLNumber": null,
+  "Agency": {
+    "AgencyCode": null,
+    "AgencyName": null,
+    "AgencyOwner": null,
+    "AgencyNumber": null,
+    "PrimaryAgency": null,
+    "Addresses": [
+      {
+        "Description": null,
+        "AddressId": null,
+        "AddressType": null,
+        "AddressLine1": null,
+        "AddressLine2": null,
+        "City": null,
+        "Region": null,
+        "State": {
+          "Id": null,
+          "Code": null,
+          "Description": null
+        },
+        "Country": {
+          "Id": null,
+          "Code": null,
+          "Description": null
+        },
+        "PostalCode": null,
+        "GeoCoordinate": {
+          "Latitude": null,
+          "Longitude": null
+        }
+      }
+    ],
+    "EmailAddresses": [
+      {
+        "EmailId": null,
+        "EmailType": null,
+        "EmailAddress": null
+      }
+    ],
+    "PhoneNumbers": [
+      {
+        "PhoneId": null,
+        "PhoneType": null,
+        "PhoneNumber": null,
+        "Extension": null
+      }
+    ],
+    "Link": {
+      "Href": null,
+      "Name": null,
+      "Templated": false
+    }
+  },
+  "Customer": {
+    "CustomerName": null,
+    "CustomerNumber": null,
+    "Link": {
+      "Href": null,
+      "Name": null,
+      "Templated": false
+    },
+    "Name": null,
+    "Logo": null,
+    "Locations": [
+      {
+        "LocationId": null,
+        "LocationCode": null,
+        "LocationType": null,
+        "Description": null,
+        "AddressId": null,
+        "AddressType": null,
+        "AddressLine1": null,
+        "AddressLine2": null,
+        "City": null,
+        "Region": null,
+        "State": {
+          "Id": null,
+          "Code": null,
+          "Description": null
+        },
+        "Country": {
+          "Id": null,
+          "Code": null,
+          "Description": null
+        },
+        "PostalCode": null,
+        "GeoCoordinate": {
+          "Latitude": null,
+          "Longitude": null
+        }
+      }
+    ],
+    "EmailAddresses": [
+      {
+        "EmailId": null,
+        "EmailType": null,
+        "EmailAddress": null
+      }
+    ],
+    "PhoneNumbers": [
+      {
+        "PhoneId": null,
+        "PhoneType": null,
+        "PhoneNumber": null,
+        "Extension": null
+      }
+    ],
+    "Contacts": [
+      {
+        "ContactType": null,
+        "Name": {
+          "FirstName": null,
+          "MiddleName": null,
+          "LastName": null,
+          "FullName": null,
+          "Alias": null
+        },
+        "Addresses": [
+          {
+            "Description": null,
+            "AddressId": null,
+            "AddressType": null,
+            "AddressLine1": null,
+            "AddressLine2": null,
+            "City": null,
+            "Region": null,
+            "State": {
+              "Id": null,
+              "Code": null,
+              "Description": null
+            },
+            "Country": {
+              "Id": null,
+              "Code": null,
+              "Description": null
+            },
+            "PostalCode": null,
+            "GeoCoordinate": {
+              "Latitude": null,
+              "Longitude": null
+            }
+          }
+        ],
+        "EmailAddresses": [
+          {
+            "EmailId": null,
+            "EmailType": null,
+            "EmailAddress": null
+          }
+        ],
+        "PhoneNumbers": [
+          {
+            "PhoneId": null,
+            "PhoneType": null,
+            "PhoneNumber": null,
+            "Extension": null
+          }
+        ]
+      }
+    ]
+  },
+  "Legs": [
+    {
+      "Mode": "Air",
+      "Operator": {
+        "FirstName": null,
+        "LastName": null,
+        "MiddleName": null,
+        "OperatorCode": null,
+        "Link": {
+          "Href": null,
+          "Name": null,
+          "Templated": false
+        }
+      },
+      "StartPoint": {
+        "StopId": 0,
+        "SequenceId": 0,
+        "StopTypeCode": null,
+        "PlanEvents": [
+          {
+            "StopTypeCode": null,
+            "UnitOfMeasure": null,
+            "Items": [
+              {
+                "ActualHeightInches": null,
+                "ActualLengthInches": null,
+                "ActualQuantity": null,
+                "ActualWeightPounds": null,
+                "ActualWidthInches": null,
+                "CommodityCode": null,
+                "CreateDateTime": null,
+                "Description": null,
+                "IsHighRisk": null,
+                "IsHazmat": false,
+                "ItemId": 0,
+                "OrderId": null,
+                "PlannedHeightInches": null,
+                "PlannedLengthInches": null,
+                "PlannedQuantity": null,
+                "PlannedWeightPounds": null,
+                "PlannedWidthInches": null,
+                "HasProofOfDelivery": false,
+                "RateCodePerUnit": null,
+                "HasTarrif": false,
+                "UpdateDateTime": null
+              }
+            ]
+          }
+        ],
+        "EarliestTime": null,
+        "LatestTime": null,
+        "PlannedTime": null,
+        "ActualTime": null,
+        "StopTime": null,
+        "CreateDateTime": null,
+        "StreetAddress": null,
+        "City": null,
+        "StateProvinceCode": null,
+        "ZipCode": null,
+        "Latitude": 0.0,
+        "Longitude": 0.0,
+        "IsNextStop": false,
+        "IsVisited": false
+      },
+      "EndPoint": {
+        "StopId": 0,
+        "SequenceId": 0,
+        "StopTypeCode": null,
+        "PlanEvents": [
+          {
+            "StopTypeCode": null,
+            "UnitOfMeasure": null,
+            "Items": [
+              {
+                "ActualHeightInches": null,
+                "ActualLengthInches": null,
+                "ActualQuantity": null,
+                "ActualWeightPounds": null,
+                "ActualWidthInches": null,
+                "CommodityCode": null,
+                "CreateDateTime": null,
+                "Description": null,
+                "IsHighRisk": null,
+                "IsHazmat": false,
+                "ItemId": 0,
+                "OrderId": null,
+                "PlannedHeightInches": null,
+                "PlannedLengthInches": null,
+                "PlannedQuantity": null,
+                "PlannedWeightPounds": null,
+                "PlannedWidthInches": null,
+                "HasProofOfDelivery": false,
+                "RateCodePerUnit": null,
+                "HasTarrif": false,
+                "UpdateDateTime": null
+              }
+            ]
+          }
+        ],
+        "EarliestTime": null,
+        "LatestTime": null,
+        "PlannedTime": null,
+        "ActualTime": null,
+        "StopTime": null,
+        "CreateDateTime": null,
+        "StreetAddress": null,
+        "City": null,
+        "StateProvinceCode": null,
+        "ZipCode": null,
+        "Latitude": 0.0,
+        "Longitude": 0.0,
+        "IsNextStop": false,
+        "IsVisited": false
+      },
+      "Tractor": {
+        "TractorNumber": null,
+        "TractorModel": null,
+        "ModelYear": null,
+        "EmptyWeightPounds": 0.0,
+        "Link": {
+          "Href": null,
+          "Name": null,
+          "Templated": false
+        }
+      },
+      "Trailer": {
+        "TrailerNumber": null,
+        "TrailerMake": null,
+        "ModelYear": null,
+        "DoorOpeningHeightInches": 0.0,
+        "GrossCapacity": 0.0,
+        "HeightInches": 0.0,
+        "WidthInches": 0.0,
+        "Link": {
+          "Href": null,
+          "Name": null,
+          "Templated": false
+        }
+      }
+    }
+  ],
+  "ETA": {
+    "Earliest": null,
+    "Latest": null,
+    "Estimate": null,
+    "Status": "early"
+  },
+  "LastLocation": {
+    "Date": null,
+    "GeoCoordinate": {
+      "Type": null,
+      "Coordinates": null
+    },
+    "City": null,
+    "State": null
+  },
+  "IsWatch": false
+}
+
